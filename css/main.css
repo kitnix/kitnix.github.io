@@ -1,0 +1,83 @@
+/*
+mint: #C9E7DD; rgb(201, 231, 221)
+navy: #213556; rgb(33, 53, 86)
+grey: #9E9A99; rgba(158, 154, 153, 1)
+coral: #EF6362; rgb(239, 99, 98)
+*/
+
+/***** design workes well until less than 992px wide *****/
+
+html, body {
+	font-size: 16px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Francois One', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+}
+
+a {
+	color: #C9E7DD;
+}
+
+.jumbotron {
+	background: url("../img/HNCK7820.jpg") no-repeat center center;
+	background-size: cover;
+	height: 400px;
+	padding: 0;
+}
+
+.jumbotron h2{
+	color: #C9E7DD;
+	background: rgba(33, 53, 86, 1);
+	text-align: center;
+	position: relative;
+	top: 30%;
+	padding: 20px;
+	width: 50%;
+	margin: auto; /*acutally looks good set to the left; just delete this line if so*/
+}
+
+.jumbotron .header {
+	background: rgba(0,0,0,.3);
+	margin: 0;
+}
+
+.jumbotron .header h1{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.jumbotron .header ul{
+	margin-top: 18px;
+}
+
+.display img {
+	margin-bottom: 25px;
+}
+
+.footer {
+	background: #213556;
+	color: #fff;
+	/*color: #9E9A99;*/
+	min-height: 100px;
+}
+
+.footer h3{
+	padding-top: 15px;
+}
+
+.footer ul{
+	margin-top: 35px;
+}
